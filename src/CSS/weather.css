@@ -1,0 +1,25 @@
+.weatherContainer{
+  gap: 50px;
+    display: flex;
+  justify-content: space-between; 
+  align-items: center;
+}
+
+.muiIcon {
+  font-size: 40px;
+}
+
+.subContainer {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  transition: transform 0.3s ease-in-out;
+  transform: scale(1.5);
+}
+
+.subContainer:hover{
+    transform: scale(1.7);
+}
+

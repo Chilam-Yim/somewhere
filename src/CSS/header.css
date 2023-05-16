@@ -1,0 +1,127 @@
+.HeaderContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 14vh;
+  background-color: #ffaa00;
+  border-bottom: 1px solid #ffffff;
+  padding: 0 20px;
+   top: '0'; 
+   left: '0' ;
+  
+}
+
+
+.headerLogo{
+    width: 80px;
+  height: 80px;
+  padding: 20px;
+
+}
+
+/* @keyframes jump {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0); }
+} */
+
+.jumpingText {
+  color: #ffffff;
+  font-size: 30px;
+  text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  width:10vw;
+  /* animation: jump 2s infinite; */
+}
+
+.searchBarContainer {
+  display: flex;
+  align-items: center;
+  border: 2px solid #ffffff;
+  border-radius: 12px;
+  padding: 8px;
+  width: 60vw;
+  height: 5vh;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  width:50vw;
+
+   margin: 0 auto;
+
+}
+
+.searchBarContainer svg {
+  margin-right: 8px;
+}
+
+.searchInput {
+  border: none;
+  outline: none;
+  flex: 1;
+  font-size: 16px;
+  margin-left: 8px;
+  color: #ffffff;
+  background-color: transparent;
+  border-bottom: 1px solid #ffffff;
+}
+
+.searchInput::placeholder {
+  color: white;
+}
+
+.searchList {
+  position: absolute;
+  top: 80px;
+  left: inherit;
+  right: inherit;
+  z-index: 999;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  max-height: 200px;
+  overflow-y: scroll;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  width:inherit;
+
+  
+}
+
+.searchList li {
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+max-width:inherit;
+}
+
+.searchList li:hover {
+  background-color: #ffaa00;
+  max-width: 100%;
+  width: auto;
+  color: white;
+  max-width:inherit;
+}
+
+.searchList li.active {
+  background-color: #4caf50;
+  color: white;
+  max-width:inherit;
+
+}
+
+.cancelIcon{
+  cursor: pointer;
+}
+
+.cancelIcon:hover{
+  font-size: 35px;
+}
+
+.searchIcon{
+  color: white;
+  cursor: pointer;
+}
+
+.searchIcon:hover{
+ 
+font-size: 35px;
+}

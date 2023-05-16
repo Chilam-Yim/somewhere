@@ -1,0 +1,48 @@
+.App {
+  text-align: center;
+}
+
+* {
+  margin-top: 0;
+}
+
+/* https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_buttons_animate3 */
+
+.ArrowCircleUpIcon {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999;
+  width: 3vw;
+  padding: 15px 15px 15px 15px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #ffaa00;
+  border: none;
+  border-radius: 50px;
+  box-shadow: 0 9px #999;
+  opacity: 0.5;
+  transition: 0.5s ease;
+
+
+}
+
+.ArrowCircleUpIcon:hover {
+  background-color: #ffaa00;
+  opacity: 1;
+}
+
+.ArrowCircleUpIcon:active {
+  background-color: #ffaa00;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+}
